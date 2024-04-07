@@ -1,0 +1,103 @@
+
+.cuerpo{
+    margin: 0;
+    background-image: url("../images/FONDO\ PALOS\ BARAJA\ PERSONALIZADOS\ PATRON.jpeg");
+    display: flex;
+}
+
+
+
+.red{
+    position: fixed;
+    
+    background-color: rgb(51, 0, 0);
+    width: 100%;
+    height: 20%;
+    min-height: 120px;
+}
+
+.black{
+    position: fixed;
+    
+    min-width: 190px;
+
+    background-color: black;
+    width: 16%;
+    height: 20%;
+    min-height: 120px;
+
+    clip-path: ellipse(100% 50% at 0% 50%);
+
+}
+
+.opciones{
+
+    position: fixed; /* Fijamos el nav en la parte superior */
+    align-items: center; /* margen superior */
+    display: flex;
+    /* bottom: 18px; */
+    width: 90%;
+
+    z-index: 999; /*CAPA MAS ALTA*/
+    min-height: 120px;
+    height: 20%;
+}
+
+.logo{
+    padding-left: 18px;
+    width: 30%;
+    z-index: 999;
+}
+
+.img_logo{
+    max-height: 90px;
+    border-radius: 50%;
+}
+
+
+.nombre{
+    position: fixed; /* Fijamos el nav en la parte superior */
+    left: 46%;
+    width: 25%;
+    z-index: 999;
+}
+
+.nombreE{
+    justify-content: center; 
+    place-items: center;   
+}
+
+.EMPRESA{
+    color: white;
+    font-size: 5.5vh;
+}
+
+.contactos{
+    margin-left: auto;
+    position: fixed; /* Fijamos el nav en la parte superior */
+    top: 20px;
+    left: 95%;
+    width: 20%;
+    z-index: 999;
+    font-size: 35px;
+    color: white;
+}
+
+.menu{
+    width: 2.5rem;
+    cursor: pointer;
+
+}
+
+main{
+    margin-top: 135px;
+}
+
+#ficha{
+    margin: 3.5% 9%;
+
+    background-color: black;
+}
+
+
+
